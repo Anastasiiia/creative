@@ -11,10 +11,10 @@ def CheckBox(Box):
 	
 	
 	return True
-	
+	gvrt
 	
 step=0
-result=False
+result=Falseert
 while result==False:
 	step+=1
 	Box=CreatRandomBox()
