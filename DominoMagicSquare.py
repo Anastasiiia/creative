@@ -11,12 +11,7 @@ def CheckBox(Box)
 	return True
 	gvrt
 	
-step=0
-result=Falseert
-while result==False:
-	step+=1
-	Box=CreatRandomBox()
-	result=CheckBox(Box)
+
 	
 	if step%10000==0: print step
 else:
