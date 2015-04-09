@@ -2,9 +2,7 @@
 import random
 
 
-def CheckBox(Box):
-	for row in Box:
-			if sum(row)!=13: return False
+def CheckBox(Box)
 	
 	if sum([Box[i][i] for i in xrange(6)])!=13: return False
 	if sum([Box[5-i][i] for i in xrange(6)])!=13: return False
